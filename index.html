@@ -418,7 +418,7 @@
       currentVersion = initVersion();
 
       let vor = new XMLHttpRequest()
-      vor.open("GET", "https://api.github.com/repos/oracle/kconfigs/commits?sha=gh-pages", true)
+      vor.open("GET", "https://api.github.com/repos/christopherco/kconfigs/commits?sha=gh-pages", true)
       vor.onload = (event) => {
           console.log("Loaded Versions from Repository");
           populateVersionOptions(event.target.response)
