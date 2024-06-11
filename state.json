@@ -18,6 +18,9 @@
         "Arch x86_64": {
             "latest_url": "https://mirrors.edge.kernel.org/archlinux/core/os/x86_64/linux-6.9.3.arch1-1-x86_64.pkg.tar.zst"
         },
+        "Azure Linux 2 aarch64": {
+            "latest_url": "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/aarch64/Packages/k/kernel-5.15.153.1-2.cm2.aarch64.rpm"
+        },
         "Azure Linux 2 x86_64": {
             "latest_url": "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/k/kernel-5.15.153.1-2.cm2.x86_64.rpm"
         },
@@ -328,6 +331,9 @@
             },
             "https://mirror.stream.centos.org/SIGs/9-stream/hyperscale/x86_64/packages-experimental/": {
                 "last_db": "https://mirror.stream.centos.org/SIGs/9-stream/hyperscale/x86_64/packages-experimental/repodata/f2b1f3db2490ea4694a4c9c3a35130a0bd57f5136791081e905fb31f2aa72506-primary.sqlite.bz2"
+            },
+            "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/aarch64/": {
+                "last_db": "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/aarch64/repodata/32c18a859f3e54a9116f601f1811d0c23cab2963d107429aae5906a05a9ab6bb-primary.xml.gz"
             },
             "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/": {
                 "last_db": "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/repodata/112a589548b6d12264ead0286390b4e7fb2e365d93a8d3c86b0d327a2e9ee2e1-primary.xml.gz"
