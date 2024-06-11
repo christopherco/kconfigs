@@ -248,6 +248,7 @@ async def extract_rpm_file(
 # TODO: generate this from the gpg-keys/Makefile directory?
 MULTI_KEYS: dict[str, list[str]] = {
     "asahi.gpg": ["fedora-asahi", "fedora-asahi-kernel"],
+    "azurelinux": ["azurelinux-metadata-key", "azurelinux-rpm-key"],
 }
 
 
