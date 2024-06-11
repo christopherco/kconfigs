@@ -159,7 +159,7 @@
 
       function getSummaryURL(version='') {
         if(!version) return "summary.json" // By default fetch latest configuration summary
-        return `https://raw.githubusercontent.com/christopherco/kconfigs/${version}/docs/summary.json`
+        return `https://raw.githubusercontent.com/oracle/kconfigs/${version}/docs/summary.json`
       }
 
       function setHeading(version, date) {
@@ -418,7 +418,7 @@
       currentVersion = initVersion();
 
       let vor = new XMLHttpRequest()
-      vor.open("GET", "https://api.github.com/repos/christopherco/kconfigs/commits?sha=gh-pages", true)
+      vor.open("GET", "https://api.github.com/repos/oracle/kconfigs/commits?sha=gh-pages", true)
       vor.onload = (event) => {
           console.log("Loaded Versions from Repository");
           populateVersionOptions(event.target.response)
