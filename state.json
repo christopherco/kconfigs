@@ -24,6 +24,12 @@
         "Azure Linux 2 x86_64": {
             "latest_url": "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/x86_64/Packages/k/kernel-5.15.153.1-2.cm2.x86_64.rpm"
         },
+        "Azure Linux Preview 3 aarch64": {
+            "latest_url": "https://packages.microsoft.com/azurelinux/3.0/preview/base/aarch64/Packages/k/kernel-6.6.29.1-3.azl3.aarch64.rpm"
+        },
+        "Azure Linux Preview 3 x86_64": {
+            "latest_url": "https://packages.microsoft.com/azurelinux/3.0/preview/base/x86_64/Packages/k/kernel-6.6.29.1-3.azl3.x86_64.rpm"
+        },
         "CentOS 7 x86_64": {
             "latest_url": "http://mirror.centos.org/centos/7/updates/x86_64/Packages/kernel-3.10.0-1160.119.1.el7.x86_64.rpm"
         },
@@ -280,7 +286,7 @@
         },
         "kconfigs.pacman.PacmanFetcher": {
             "https://mirrors.edge.kernel.org/archlinux/core/os/x86_64/": {
-                "last_modified": "Tue, 11 Jun 2024 07:28:25 GMT"
+                "last_modified": "Tue, 11 Jun 2024 19:53:37 GMT"
             }
         },
         "kconfigs.rpm.RpmFetcher": {
@@ -331,6 +337,12 @@
             },
             "https://mirror.stream.centos.org/SIGs/9-stream/hyperscale/x86_64/packages-experimental/": {
                 "last_db": "https://mirror.stream.centos.org/SIGs/9-stream/hyperscale/x86_64/packages-experimental/repodata/f2b1f3db2490ea4694a4c9c3a35130a0bd57f5136791081e905fb31f2aa72506-primary.sqlite.bz2"
+            },
+            "https://packages.microsoft.com/azurelinux/3.0/preview/base/aarch64/": {
+                "last_db": "https://packages.microsoft.com/azurelinux/3.0/preview/base/aarch64/repodata/2d1e3f2a736c00ebbe038b815854c2b5ca929ea6eb17fc360263879e54434ef0-primary.xml.gz"
+            },
+            "https://packages.microsoft.com/azurelinux/3.0/preview/base/x86_64/": {
+                "last_db": "https://packages.microsoft.com/azurelinux/3.0/preview/base/x86_64/repodata/1a093c753090112e9fb9103523c0b1b57c6146bdffdb1ea61d28e5154fd53f57-primary.xml.gz"
             },
             "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/aarch64/": {
                 "last_db": "https://packages.microsoft.com/cbl-mariner/2.0/prod/base/aarch64/repodata/32c18a859f3e54a9116f601f1811d0c23cab2963d107429aae5906a05a9ab6bb-primary.xml.gz"
