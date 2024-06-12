@@ -38,6 +38,11 @@ can be accepted.
 
 ### Development Environment
 
+#### Using GitHub Codespaces
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/christopherco/kconfigs)
+
+#### Using Your Local System
 Follow the "How to Run" section of the README first. Then, you can install
 additional development dependencies:
 
