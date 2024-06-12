@@ -1,0 +1,7 @@
+{
+    "name": "Python",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "onCreateCommand": ".devcontainer/onCreateCommand.sh"
+}
